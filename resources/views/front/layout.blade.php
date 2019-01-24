@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="{{ asset('css/base.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/vendor.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 	@yield('css')
 
 	<style>
@@ -209,9 +210,9 @@
 
    </footer>
 
-   <div id="preloader">
+   <!-- <div id="preloader">
     	<div id="loader"></div>
-   </div>
+   </div> -->
 
    <!-- Java Script
    ================================================== -->
