@@ -180,11 +180,8 @@
 	      		<h4>@lang('Social')</h4>
 
 	      		<ul>
-	      			<li><a href="#">Twitter</a></li>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Dribbble</a></li>
-					<li><a href="#">Google+</a></li>
-					<li><a href="#">Instagram</a></li>
+	      			<li><a href="#">Vkontakte</a></li>
+					<li><a href="#">GitHub</a></li>
 				</ul>
 
 	      	</div> <!-- end social links -->

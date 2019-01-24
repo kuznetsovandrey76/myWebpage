@@ -840,6 +840,10 @@ input::-moz-focus-inner {
 	cursor: pointer;
 }
 
+.alert-box__message {
+	margin-bottom: 0;
+}
+
 .ss-error {
 	background-color: #ffd1d2;
 	color: #e65153;
