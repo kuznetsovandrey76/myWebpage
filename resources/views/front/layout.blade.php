@@ -181,8 +181,8 @@
 	      		<h4>@lang('Social')</h4>
 
 	      		<ul>
-	      			<li><a href="#">Vkontakte</a></li>
-					<li><a href="#">GitHub</a></li>
+	      			<li><a href="https://vk.com/kuznetsovandrey76">Vkontakte</a></li>
+					<li><a href="https://github.com/kuznetsovandrey76">GitHub</a></li>
 				</ul>
 
 	      	</div> <!-- end social links -->

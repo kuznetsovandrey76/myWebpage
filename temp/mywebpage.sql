@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 24 2019 г., 11:52
+-- Время создания: Янв 25 2019 г., 11:39
 -- Версия сервера: 5.6.37
 -- Версия PHP: 7.1.7
 
@@ -230,7 +230,7 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`id`, `created_at`, `updated_at`, `title`, `slug`, `seo_title`, `excerpt`, `body`, `meta_description`, `meta_keywords`, `active`, `user_id`, `image`) VALUES
-(1, '2019-01-24 05:32:16', '2019-01-24 05:36:41', 'Hello World', 'hello-world', 'Andrey Kuznetsov logo', 'Welcome to my web page', '<p>In expedita voluptatem dolor reiciendis. Perferendis enim est ut. Et non nulla commodi id tenetur at. Ut voluptatem voluptatum aut dolor veritatis. Illum debitis animi ab laudantium. Amet cupiditate voluptatem ducimus debitis mollitia. Pariatur sit eum ex. Non libero quia saepe temporibus id laborum. Perspiciatis eaque animi unde dolor vitae vel iste labore. Quam eos laboriosam ea quae. Et praesentium est voluptatibus eum quis. Iste unde ipsa impedit officia sint nihil. Sint possimus necessitatibus magni consequatur ut enim error. Omnis est occaecati sit saepe consequatur non sunt. Molestiae excepturi numquam est. Rem eos et iste molestias. Doloremque repudiandae consequuntur deleniti et. Soluta laudantium non repellendus cumque. Labore autem velit ad nihil illum. Culpa incidunt sed quo itaque ea et numquam. Sed voluptatem vero sit rerum qui quia et. Deserunt illum provident corporis consequatur natus corporis nihil. Sint error ea sit accusantium sint tempore. Non ipsam molestias odit pariatur illo quae rerum. Quis veritatis numquam sit atque. Consequatur suscipit deleniti tenetur minus facilis ab. Dolores ut provident ipsa adipisci. Dolorum eos et quasi voluptatem dignissimos minima. Laborum fuga quo nam laudantium. Enim impedit earum numquam voluptatem distinctio.</p>', 'Et inventore dolor quod fugiat non recusandae.', 'logo', 1, 1, '\\files\\akuznetsov\\logo.jpg');
+(1, '2019-01-24 05:32:16', '2019-01-24 11:20:17', 'Hello World', 'hello-world', 'Andrey Kuznetsov logo', 'Welcome to my web page', '<p>In expedita voluptatem dolor reiciendis. Perferendis enim est ut. Et non nulla commodi id tenetur at. Ut voluptatem voluptatum aut dolor veritatis. Illum debitis animi ab laudantium. Amet cupiditate voluptatem ducimus debitis mollitia. Pariatur sit eum ex. Non libero quia saepe temporibus id laborum. Perspiciatis eaque animi unde dolor vitae vel iste labore. Quam eos laboriosam ea quae. Et praesentium est voluptatibus eum quis. Iste unde ipsa impedit officia sint nihil. Sint possimus necessitatibus magni consequatur ut enim error. Omnis est occaecati sit saepe consequatur non sunt. Molestiae excepturi numquam est. Rem eos et iste molestias. Doloremque repudiandae consequuntur deleniti et. Soluta laudantium non repellendus cumque. Labore autem velit ad nihil illum. Culpa incidunt sed quo itaque ea et numquam. Sed voluptatem vero sit rerum qui quia et. Deserunt illum provident corporis consequatur natus corporis nihil. Sint error ea sit accusantium sint tempore. Non ipsam molestias odit pariatur illo quae rerum. Quis veritatis numquam sit atque. Consequatur suscipit deleniti tenetur minus facilis ab. Dolores ut provident ipsa adipisci. Dolorum eos et quasi voluptatem dignissimos minima. Laborum fuga quo nam laudantium. Enim impedit earum numquam voluptatem distinctio.</p>', 'Et inventore dolor quod fugiat non recusandae.', 'logo', 1, 1, '\\files\\img01.jpg');
 
 -- --------------------------------------------------------
 
@@ -304,9 +304,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `created_at`, `updated_at`, `name`, `email`, `password`, `remember_token`, `role`, `valid`, `confirmed`, `confirmation_code`) VALUES
-(1, '2019-01-24 05:32:11', '2019-01-24 05:39:50', 'Andrey Kuznetsov', 'admin@la.fr', '$2y$10$a1/68ujay.P/BuMbtY.Agum8fPiCx8vlMjN25rCsiQbIdIeqXDi/.', 'VJhAMd5nSj', 'admin', 1, 1, NULL),
+(1, '2019-01-24 05:32:11', '2019-01-25 05:37:47', 'Admin', 'admin@la.fr', '$2y$10$a1/68ujay.P/BuMbtY.Agum8fPiCx8vlMjN25rCsiQbIdIeqXDi/.', 'x0PgKrB80sX1gKonwA9lcTEkk1Ge2Ju0hgIBo1RZTY408AtgHA7yfggFn9pP', 'admin', 1, 1, NULL),
 (2, '2019-01-24 05:32:11', '2019-01-24 05:32:11', 'GreatRedactor', 'redac@la.fr', '$2y$10$ZM2LxSQjWrwFulZonZ.WhOEuQZOOzb0ziqhyvURwC8h/1wGkfLTCC', 'ScnkKbQsu4', 'redac', 1, 1, NULL),
-(3, '2019-01-24 05:32:11', '2019-01-24 05:32:11', 'Walker', 'walker@la.fr', '$2y$10$UGfByfP07C1ukqFITt5uE.wpSbPUCOmdIaWe0xqw5cK3HGn.B8Qv2', 'CabySiVFjH', 'user', 1, 1, NULL);
+(3, '2019-01-24 05:32:11', '2019-01-24 05:32:11', 'Walker', 'walker@la.fr', '$2y$10$UGfByfP07C1ukqFITt5uE.wpSbPUCOmdIaWe0xqw5cK3HGn.B8Qv2', 'CabySiVFjH', 'user', 1, 1, NULL),
+(4, '2019-01-25 05:35:11', '2019-01-25 05:38:04', 'Andrey Kuznetsov', 'and.rey.q@yandex.ru', '$2y$10$cDFBi6yzl8jRYBcfHZeai.v4jsazOII.dSOsCp9lB6A51IVleM03e', NULL, 'admin', 1, 1, 'Qq7vqQXf5dc2vIPm1DJq06xIgfIngX');
 
 --
 -- Индексы сохранённых таблиц
@@ -427,12 +428,12 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT для таблицы `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT для таблицы `ingoings`
 --
 ALTER TABLE `ingoings`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 --
 -- AUTO_INCREMENT для таблицы `migrations`
 --
@@ -457,7 +458,7 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --
